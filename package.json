@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "t-rex-app",
+  "homepage" : "http://myname.github.io/t-rex-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

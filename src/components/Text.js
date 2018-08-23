@@ -96,7 +96,7 @@ class Text extends React.Component {
           <form onSubmit={this.handleSubmit}>
             <div className="input-group" >
               <div className="input-group-prepend">
-                <span className="input-group-text" id="inputGroup-sizing-default">Search</span>
+                <span className="input-group-text" id="inputGroup-sizing-default">Enter Word</span>
               </div>
                 <input 
                   onChange={this.onChange}
