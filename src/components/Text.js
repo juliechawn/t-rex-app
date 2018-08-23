@@ -113,7 +113,7 @@ class Text extends React.Component {
         </div>
         <div className="row no-gutters">
           <div className="col-12" id="keyboard">
-            <img src={quicktype} alt="quicktype" width="100%" height="253"/>
+            <img id="quicktype" src={quicktype} alt="quicktype" width="100%" height="253"/>
           </div>
           </div>
         </div>
