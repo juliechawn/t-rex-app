@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Synonym from './Synonym';
 import trex from '../images/trex.gif';
 import quicktype from '../images/quicktype.jpg'; 
 
 import axios from 'axios';
 
-class Text extends Component {
+class Text extends React.Component {
   constructor() {
     super();
 
@@ -29,7 +29,7 @@ class Text extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    const url = "http://words.bighugelabs.com/api/2/ae20e1ed4d471a357983df53d1e40ad2/" + this.state.word + "/json";
+    const url = "https://words.bighugelabs.com/api/2/ae20e1ed4d471a357983df53d1e40ad2/" + this.state.word + "/json";
 
     axios.get(url)
       .then((response) => {  
